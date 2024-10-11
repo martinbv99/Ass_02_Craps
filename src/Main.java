@@ -35,6 +35,7 @@ public class Main
             } else if (dieTotal == 2 || dieTotal == 3 || dieTotal == 12) {
                 System.out.println("You rolled a " + dieTotal + " You CRAPPED!");
                 rollDone = true;
+                gameWon =false;
             }
             else
             {   int points = dieTotal;
